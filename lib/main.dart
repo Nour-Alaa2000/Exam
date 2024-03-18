@@ -1,4 +1,5 @@
 import 'package:exam/SecScreen.dart';
+import 'package:exam/ThirdSec.dart';
 import 'package:flutter/material.dart';
 
 import 'HomeScreen.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
     initialRoute: HomeScreen.routeName
     ,routes: {HomeScreen.routeName:(context) => HomeScreen(),
 
-     SecScreen.routeName:(context) => SecScreen()
+     SecScreen.routeName:(context) => SecScreen(),
+     ThirdSec.routeName:(context)=>ThirdSec(),
 
     },
     );
